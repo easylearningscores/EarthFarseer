@@ -7,9 +7,19 @@ The official implementation of our project EarthFarseer, the related code and pa
 
 # Introduction
 
-![Label](./figure/intro1.pdf)
 
 
+<p align="center">
+  <img src="figure/intro1.png" alt="Introductory figure 1" width="50%" height="50%">
+  <br>
+  <sub><b><font face="Times New Roman">Figure 1:</font></b> A natural phenomenon in which global and local evolution are inconsistent. The hurricanes primarily exhibit clockwise rotation while in certain localized areas, the presence of convection results in the emergence of counterclockwise rotation.</sub>
+</p>
+
+<p align="center">
+  <img src="figure/intro_2.png" alt="Introductory figure 2" width="100%" height="100%">
+  <br>
+  <sub><b><font face="Times New Roman">Figure 2:</font></b> We showcase the performance comparisons between our model and SOTA models across diverse domains. Middle. Convergence of our model compared to other models across different datasets. Right. Our model demonstrates exceptional capability in addressing long-distance prediction problems. In Shallow Water, we leverage 10 frames to accurately forecast the next 50 frames, here we provide visualizations showcasing the results for the entire ten-frame sequence. In TaxiBJ+, we adopt 2 frames to predict the next 12 frames, and we can find our model excels at accurately reproducing both inflow and outflow results.</sub>
+</p>
 
 ### Getting Started
 ```
