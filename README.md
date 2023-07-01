@@ -5,14 +5,11 @@ The official implementation of our project EarthFarseer, the related code and pa
 # Abstract
 
 
-### Visualization
+# Introduction
 
-#### Label
-![Label](weather-PastNet/figure/label.jpg)
-#### Prediction
-![Predictions](weather-PastNet/figure/pred.jpg)
-#### Error
-![Error](weather-PastNet/figure/error.jpg)
+![Label](./figure/intro1.pdf)
+
+
 
 ### Getting Started
 ```
