@@ -31,14 +31,19 @@ The official implementation of our project EarthFarseer, the related code and pa
 </p>
 
 ## Experiments
-
-
 ### Main Table
 
+<p align="center">
+  <img src="figure/maintable.jpg" alt="Introductory figure 2" width="100%" height="100%">
+  <br>
+  <sub><b><font face="Times New Roman">Figure 1:</font></b> Model overview.</sub>
+</p>
+
+
+
+
 ### Visualization
-<video id="video" controls="" preload="none" poster="">
-      <source id="mp4" src="https://github.com/easylearningscores/EarthFarseer/blob/main/figure/demo.mp4" type="video/mp4">
-      </video>
+
 
 
 
