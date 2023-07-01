@@ -29,8 +29,10 @@ The official implementation of our project EarthFarseer, the related code and pa
 ### Main Table
 
 ### Visualization
+<video id="video" controls="" preload="none" poster="">
+      <source id="mp4" src="https://github.com/easylearningscores/EarthFarseer/blob/main/figure/demo.mp4" type="video/mp4">
+      </video>
 
-![image](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
 
 
 ## Getting Started
