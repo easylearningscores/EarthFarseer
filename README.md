@@ -22,6 +22,13 @@ The official implementation of our project EarthFarseer, the related code and pa
   
 </p>
 
+## Frameworks
+
+<p align="center">
+  <img src="figure/methodAAAI20230701" alt="Introductory figure 2" width="40%" height="40%">
+  <br>
+  <sub><b><font face="Times New Roman">Figure 1:</font></b> Model overview.</sub>
+</p>
 
 ## Experiments
 
