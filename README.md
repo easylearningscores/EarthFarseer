@@ -10,7 +10,7 @@ The official implementation of our project EarthFarseer, the related code and pa
 
 
 <p align="center">
-  <img src="figure/intro1.png" alt="Introductory figure 1" width="50%" height="50%">
+  <img src="figure/intro1.png" alt="Introductory figure 1" width="40%" height="40%">
   <br>
   <sub><b><font face="Times New Roman">Figure 1:</font></b> A natural phenomenon in which global and local evolution are inconsistent. The hurricanes primarily exhibit clockwise rotation while in certain localized areas, the presence of convection results in the emergence of counterclockwise rotation.</sub>
 </p>
