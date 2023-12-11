@@ -47,7 +47,4 @@ Our paper "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in
 
 
 
-## Getting Started
-```
-python main.py 
-```
+
