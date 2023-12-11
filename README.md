@@ -1,5 +1,5 @@
 # EarthFarseer
-The official implementation of our project EarthFarseer, the related code and papers will be online soon
+Our paper "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model" has been accepted by AAAI24!
 
 
 ## Abstract
