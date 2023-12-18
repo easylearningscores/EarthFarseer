@@ -1,3 +1,6 @@
+# NEWS ！！！
+Will update the full code in ten days！！！
+
 # EarthFarseer
 Our paper "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model" has been accepted by AAAI24!
 
