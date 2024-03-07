@@ -1,5 +1,4 @@
 # EarthFarseer
-Our paper "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model" has been accepted by AAAI24!
 
 ### Getting Started
 ```
@@ -39,15 +38,3 @@ python main.py --epochs 100 --batch_size 16 --val_batch_size 16 --hid_S 64 --hid
   <br>
   <sub><b><font face="Times New Roman">Figure 1:</font></b> Model overview.</sub>
 </p>
-
-
-
-
-If you find this work helpful, please cite it
-```bibtex
-@article{wu2023earthfarseer,
-  title={Earthfarseer: Versatile spatio-temporal dynamical systems modeling in one model},
-  author={Wu, Hao and Wang, Shilong and Liang, Yuxuan and Zhou, Zhengyang and Huang, Wei and Xiong, Wei and Wang, Kun},
-  journal={AAAI2024},
-  year={2023}
-}
