@@ -42,9 +42,11 @@ Our paper "Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in
 
 
 
-### Visualization
-
-
-
-
-
+If you find this work helpful, please cite it
+```bibtex
+@article{wu2023earthfarseer,
+  title={Earthfarseer: Versatile spatio-temporal dynamical systems modeling in one model},
+  author={Wu, Hao and Wang, Shilong and Liang, Yuxuan and Zhou, Zhengyang and Huang, Wei and Xiong, Wei and Wang, Kun},
+  journal={arXiv preprint arXiv:2312.08403},
+  year={2023}
+}
