@@ -11,7 +11,7 @@ from Local_CNN_Branch import *
 
 class Earthfarseer_model(nn.Module):
     def __init__(self, shape_in, hid_S=512, hid_T=256, N_S=4, N_T=8, incep_ker=[3,5,7,11], groups=8):
-        super(FouriEarthfarseer_modeler_Model, self).__init__()
+        super(Earthfarseer_model, self).__init__()
         T, C, H, W = shape_in
         self.upsampling = Upsampling(in_channels = C, out_channels = C)
         self.enc = Encoder(C, hid_S, N_S)
