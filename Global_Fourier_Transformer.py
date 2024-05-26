@@ -307,8 +307,6 @@ class Fourier_Model(nn.Module):
         return pde_features
 
 
-
-
 if __name__ == '__main__':
     x = torch.randn((1, 12, 2, 128, 128))
     y = torch.randn((1, 12, 2, 128, 128))
