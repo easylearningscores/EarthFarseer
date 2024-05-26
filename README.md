@@ -32,5 +32,33 @@
 
 
 
-### Getting Started
+## Abstract
+Efficiently modeling spatio-temporal physical processes presents a challenge for deep learning. Recent models often lack simplicity and practicality. To address this, we propose EarthFarseer, a concise framework combining parallel local convolutions and global Fourier-based transformer architectures. This approach dynamically captures local-global spatial interactions and dependencies. EarthFarseer also incorporates multi-scale fully convolutional and Fourier architectures for efficient temporal evolution. It demonstrates strong adaptability, fast convergence, and improved local fidelity in long-term predictions across various datasets, achieving state-of-the-art performance.
+
+## Getting Started
+
+Use the following instructions to quickly run the code.
+
+```python
+python train_main.py --data_path EarthFarseer/Dataset/NavierStokes_V1e-5_N1200_T20.mat --num_epochs 100 --batch_size 20
+```
+## Citation
+
+If you are interested in our repository or our paper, please cite the following paper:
+
+```
+@inproceedings{wu2024earthfarsser,
+  title={Earthfarsser: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model},
+  author={Wu, Hao and Liang, Yuxuan and Xiong, Wei and Zhou, Zhengyang and Huang, Wei and Wang, Shilong and Wang, Kun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={14},
+  pages={15906--15914},
+  year={2024}
+}
+```
+
+## Contact
+
+If you have any questions or want to use the code, please contact [easyluwu@tencent.com](mailto:easyluwu@tencent.com).
 
