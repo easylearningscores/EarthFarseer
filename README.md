@@ -51,7 +51,7 @@ Efficiently modeling spatio-temporal physical processes presents a challenge for
 
 | Dataset       | Task                                    | Geometry        | Link                                                         |
 | ------------- | --------------------------------------- | --------------- | ------------------------------------------------------------ |
-| Navier-Stokes equation| Predict future fluid velocity          | Regular Grid    | [[Google Cloud]](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-) |
+| Navier-Stokes equation| Predict future fluid vorticity          | Regular Grid    | [[Google Cloud]](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-) |
 | Shallow-water equations | Predict future fluid height          | Regular Grid    | [[Google Cloud]](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986) |
 | Moving MNIST| Predict future image          | Regular Grid    | [[Google Cloud]](https://www.cs.toronto.edu/~nitish/unsupervised_video/) |
 
