@@ -31,6 +31,7 @@
 [🆕News](docs/en/changelog.md)
 
 
+##  NOTE: We use the concepts of VQ-VAE and memory to improve Earthfarseer and add more experiments. Currently, it is submitted to TPAMI 2024 as Earthfarseer-V2.
 
 ## Abstract
 Efficiently modeling spatio-temporal physical processes presents a challenge for deep learning. Recent models often lack simplicity and practicality. To address this, we propose EarthFarseer, a concise framework combining parallel local convolutions and global Fourier-based transformer architectures. This approach dynamically captures local-global spatial interactions and dependencies. EarthFarseer also incorporates multi-scale fully convolutional and Fourier architectures for efficient temporal evolution. It demonstrates strong adaptability, fast convergence, and improved local fidelity in long-term predictions across various datasets, achieving state-of-the-art performance.
