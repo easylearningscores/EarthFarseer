@@ -45,8 +45,20 @@ Efficiently modeling spatio-temporal physical processes presents a challenge for
 
 
 ## Getting Started
+1. Prepare Data. You can obtain experimental datasets from the following links.
 
-Use the following instructions to quickly run the code.
+
+| Dataset       | Task                                    | Geometry        | Link                                                         |
+| ------------- | --------------------------------------- | --------------- | ------------------------------------------------------------ |
+| Navier-Stokes equation| Predict future fluid velocity          | Regular Grid    | [[Google Cloud]](https://drive.google.com/drive/folders/1UnbQh2WWc6knEHbLn-ZaXrKUZhp7pjt-) |
+| Shallow-water equations | Predict future fluid height          | Regular Grid    | [[Google Cloud]](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986) |
+| Moving MNIST| Predict future image          | Regular Grid    | [[Google Cloud]](https://www.cs.toronto.edu/~nitish/unsupervised_video/) |
+
+
+
+
+
+2. Use the following instructions to quickly run the code.
 
 ```python
 python train_main.py --data_path EarthFarseer/Dataset/NavierStokes_V1e-5_N1200_T20.mat --num_epochs 100 --batch_size 20
