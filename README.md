@@ -35,6 +35,15 @@
 ## Abstract
 Efficiently modeling spatio-temporal physical processes presents a challenge for deep learning. Recent models often lack simplicity and practicality. To address this, we propose EarthFarseer, a concise framework combining parallel local convolutions and global Fourier-based transformer architectures. This approach dynamically captures local-global spatial interactions and dependencies. EarthFarseer also incorporates multi-scale fully convolutional and Fourier architectures for efficient temporal evolution. It demonstrates strong adaptability, fast convergence, and improved local fidelity in long-term predictions across various datasets, achieving state-of-the-art performance.
 
+<p align="center" width="100%">
+  <img src='figure/intro_2.png' width="100%">
+</p>
+
+<p align="center" width="100%">
+  <img src='figure/methodAAAI20230701.png' width="100%">
+</p>
+
+
 ## Getting Started
 
 Use the following instructions to quickly run the code.
