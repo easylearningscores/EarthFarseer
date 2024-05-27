@@ -62,7 +62,7 @@ Efficiently modeling spatio-temporal physical processes presents a challenge for
 2. Use the following instructions to quickly run the code.
 
 ```python
-python train_main.py --data_path EarthFarseer/Dataset/NavierStokes_V1e-5_N1200_T20.mat --num_epochs 100 --batch_size 20
+python train_main.py --data_path Dataset/NavierStokes_V1e-5_N1200_T20.mat --num_epochs 100 --batch_size 5
 ```
 ## Citation
 
