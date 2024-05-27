@@ -10,7 +10,6 @@ from Temporal_block import *
 from utils import *
 
 
-
 class Earthfarseer_model(nn.Module):
     def __init__(self, shape_in, hid_S=512, hid_T=256, N_S=4, N_T=8, incep_ker=[3,5,7,11], groups=8):
         super(Earthfarseer_model, self).__init__()
@@ -19,7 +18,7 @@ class Earthfarseer_model(nn.Module):
         self.W1 = int(W / 2 ** (N_S / 2))
 
         self.fotf_encoder = FoTF(shape_in=shape_in)
-        
+        self.skip_conneciton = ConvolutionalNetwork.skip_connection(shape_in=shape_in)
         self.latent_projection = Encoder(C, hid_S, N_S)
         self.enc = Encoder(C, hid_S, N_S)
         self.TeDev_block = TeDev(T*hid_S, hid_T, N_T, self.H1, self.W1, incep_ker, groups) #
@@ -29,6 +28,7 @@ class Earthfarseer_model(nn.Module):
     def forward(self, input_st_tensors):
         # Spatial block FoTF
         B, T, C, H, W = input_st_tensors.shape
+        skip_feature = self.skip_conneciton(input_st_tensors)
         spatial_feature = self.fotf_encoder(input_st_tensors)
 
         spatial_feature = spatial_feature.reshape(-1, C, H, W)
@@ -44,7 +44,7 @@ class Earthfarseer_model(nn.Module):
 
         # Decoder
         predictions = self.dec(spatialtemporal_embed, spatial_skip_feature)
-        predictions = predictions.reshape(B, T, C, H, W)
+        predictions = predictions.reshape(B, T, C, H, W) + skip_feature
         
         return predictions
 
