@@ -46,7 +46,15 @@ Efficiently modeling spatio-temporal physical processes presents a challenge for
 
 
 ## Getting Started
-1. Prepare Data. You can obtain experimental datasets from the following links.
+
+1. Install Python 3.8. For convenience, execute the following command.
+
+```bash
+pip install -r requirements.txt
+```
+
+
+2. Prepare Data. You can obtain experimental datasets from the following links.
 
 
 | Dataset       | Task                                    | Geometry        | Link                                                         |
@@ -59,7 +67,7 @@ Efficiently modeling spatio-temporal physical processes presents a challenge for
 
 
 
-2. Use the following instructions to quickly run the code.
+3. Use the following instructions to quickly run the code.
 
 ```python
 python train_main.py --data_path Dataset/NavierStokes_V1e-5_N1200_T20.mat --num_epochs 100 --batch_size 5
