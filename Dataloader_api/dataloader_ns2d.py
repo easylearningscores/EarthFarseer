@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 class NS2DDataset(Dataset):
     def __init__(self, data_path, transform=None):
         self.data = torch.from_numpy(np.load(data_path))
-        self.data.unsqueeze_(2)  # 在通道维度上添加一个维度
+        self.data.unsqueeze_(2)  
         self.transform = transform
         self.mean = 0
         self.std = 1
