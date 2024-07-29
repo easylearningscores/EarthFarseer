@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-  <img src='figure/earthlogonew.png' width="50%">
+  <img src='figure/AAAI2024.png' width="50%">
 </p>
 
 
