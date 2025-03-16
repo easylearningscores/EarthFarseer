@@ -44,7 +44,7 @@ class Earthfarseer_model(nn.Module):
 
         # Decoder
         predictions = self.dec(spatialtemporal_embed, spatial_skip_feature)
-        predictions = 0.05 * predictions.reshape(B, T, C, H, W) + skip_feature
+        predictions = predictions.reshape(B, T, C, H, W) + skip_feature
         
         return predictions
 
